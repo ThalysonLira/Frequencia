@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConfiguracaoActivity">
+
+    <Button android:layout_width="8dp"
+            android:layout_height="8dp"/>
+
+<group android:id="@+id/drawer_grupo">
+    <item
+            android:id="@+id/meus_grupos"
+            android:icon="@drawable/ic_grupo"
+            android:title="Conta"/>
+</group>
+
+<group android:id="@+id/drawer_opcoes">
+    <item
+            android:id="@+id/registro_mensal"
+            android:icon="@drawable/ic_calendario"
+            android:title="Registro Mensal"/>
+    <item
+            android:id="@+id/contatos"
+            android:icon="@drawable/ic_contatos"
+            android:title="Notificações e Sons"/>
+</group>
+
+<group android:id="@+id/drawer_configuracoes">
+    <item
+            android:id="@+id/configuracao"
+            android:icon="@drawable/ic_configuracao"
+            android:title="Privacidade e Segurança"/>
+    <item
+            android:id="@+id/duvidas"
+            android:icon="@drawable/ic_duvida"
+            android:title="Ajuda"/>
+</group>
+
+</ConstraintLayout>
